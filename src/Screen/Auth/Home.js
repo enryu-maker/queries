@@ -8,7 +8,6 @@ export default function Home() {
         flexDirection: 'column',
     }}>
         <Header page={"Home"}/>
-        <Footer/>
     </div>
   )
 }

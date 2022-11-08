@@ -31,7 +31,7 @@ export default function TextButton({
             ...buttonContainerStyle,
         }}
         >
-        <p style={{ color: COLORS.white, ...FONTS.h3, ...labelStyle,alignSelf:"center",letterSpacing:1,paddingInline:5, }}>
+        <p style={{ color: COLORS.white, ...FONTS.body3, ...labelStyle,alignSelf:"center",letterSpacing:1,paddingInline:5, }}>
         {label}
         </p>
         </button>
