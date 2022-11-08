@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Components/Header'
 import TextButton from '../../Components/TextButton'
-import { FONTS } from '../../Theme/Theme'
+import { COLORS, FONTS } from '../../Theme/Theme'
 
 export default function Pricing() {
   return (
@@ -16,18 +16,23 @@ export default function Pricing() {
         justifyContent: 'center',
         height: '100vh',
         flexDirection:"column"
+        
         // marginTop:'120px'
       }}>
-        <text style={{
-          ...FONTS.largeTitle
+        <p style={{
+          ...FONTS.largeTitle,
+          marginBlockEnd:0,
+          color:COLORS.gray
         }}>
           Reach your customers now, pick a plan later
-        </text>
-        <text style={{
-          ...FONTS.body2
+        </p>
+        <p style={{
+          marginBlockStart:0,
+          color:COLORS.gray,
+          ...FONTS.body2,
         }}>
           Try Queries for free. No credit card required.
-        </text>
+        </p>
         <TextButton label={'Start your free trial'}/>
       </div>
     </div>

@@ -66,7 +66,7 @@ export default function Header({
                 height: '50px',
                 color: COLORS.gray,
                 textAlign: 'center',
-                backgroundColor: COLORS.layout
+                // backgroundColor: COLORS.layout
             }}>
                 <LinkComp title={"Home"} path={"/"} active={page}/>
                 <LinkComp title={"Pricing"} path={"/pricing"} textStyle={{marginLeft:50}}active={page} />
