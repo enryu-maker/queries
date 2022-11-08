@@ -15,7 +15,7 @@ export default function Header({
             left: 0,
             top: 0,
             width: '100%',
-            height: '140px',
+            height: '120px',
             color: 'black',
             textAlign: 'center'
         }}>
@@ -23,7 +23,7 @@ export default function Header({
                 display: 'flex',
                 // flexDirection: 'row',
                 width: '100%',
-                height: '90px',
+                height: '70px',
                 color: COLORS.Primary,
                 textAlign: 'center',
                 justifyContent: "space-between",
