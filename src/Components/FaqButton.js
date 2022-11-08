@@ -17,13 +17,14 @@ export default function FaqButton({
                 display: "flex",
                 flexDirection: "row",
                 width: "100%",
-                justifyContent: "space-between"
-
+                justifyContent: "space-between",
+                marginTop: 20,
             }}>
                 <p style={{
                      ...FONTS.body2,
                      marginBlockEnd: 0,
-                     color: COLORS.Primary
+                     color: COLORS.Primary,
+                     marginBlockStart: 0,
                 }}>
                     {question}
                 </p>

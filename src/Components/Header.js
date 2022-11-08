@@ -17,7 +17,7 @@ export default function Header({
             width: '100%',
             height: '120px',
             textAlign: 'center',
-            backgroundColor:COLORS.white
+            backgroundColor:COLORS.white,
         }}>
             <div style={{
                 display: 'flex',
