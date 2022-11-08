@@ -1,4 +1,3 @@
-import { Action } from '@remix-run/router'
 import React from 'react'
 import { AiOutlinePlus,AiOutlineMinus } from 'react-icons/ai'
 import { COLORS,FONTS } from '../Theme/Theme'

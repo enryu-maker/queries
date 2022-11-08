@@ -12,8 +12,6 @@ export default function Pricing() {
     {
       question:"Can I change my subscription anytime I want?",
       answer:"Yes. You can upgrade or downgrade your plan anytime you want, regardless of whether you have an active paid subscription or you are on the free plan.",
-
-
     },
     {
       question:"Can I subscribe to more than one plan?",
@@ -60,7 +58,7 @@ export default function Pricing() {
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            height: '90vh',
+            height: '100vh',
             flexDirection: "column",
             backgroundColor: COLORS.layout,
             width: '100%',
@@ -72,17 +70,17 @@ export default function Pricing() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
-              height: '80%',
+              height: '85%',
               flexDirection: "row",
               backgroundColor: COLORS.layout,
-              width: '70%',
+              width: '90%',
             }}>
             <PriceButton
               tier={"Free"}
               desc={"An excellent choice to get your small website started, no commitment required."}
               price={"$ 0"}
               buttonTitle={"Use Queries for free"}
-              feature={['Upto 50 Contacts / Mo.', 'Notification on Single Email using']}
+              feature={['Upto 50 Submission / Mo.', 'Notification on Single Email using']}
             />
 
             <div style={{
@@ -100,7 +98,7 @@ export default function Pricing() {
               desc={"The best option for mid-sized teams that base customer support on live conversations. "}
               price={"$ 6.99"}
               buttonTitle={"Start your free trial"}
-              feature={['Upto 250 Contacts / Mo.', 'Notification on Single Email', 'Notification on Single Phone Number']}
+              feature={['Upto 250 Submission / Mo.', 'Notification on Single Email', 'Notification on Single Phone Number']}
 
             />
 
@@ -119,7 +117,7 @@ export default function Pricing() {
               desc={"A handy add-on with automations made for self-service, can be bundled with other plans."}
               price={"$ 13.99"}
               buttonTitle={"Start your free trial"}
-              feature={['Upto 500 Contacts / Mo.', 'Notification on upto 2 Email', 'Notification on upto 2 Phone Number', 'Custom Question']}
+              feature={['Upto 500 Submission / Mo.', 'Notification on upto 2 Email', 'Notification on upto 2 Phone Number', 'Custom Question']}
 
             />
 
@@ -138,7 +136,7 @@ export default function Pricing() {
               desc={"A solution for growing businesses looking for advanced features and dedicated support."}
               price={"$ 20.99"}
               buttonTitle={"Start your free trial"}
-              feature={['Unlimited Contacts / Mo.', 'Notification on upto 5 Email', 'Notification on upto 5 Phone Number', 'Custom Question', "Enquiry Dashboard"]}
+              feature={['Unlimited Submission / Mo.', 'Notification on upto 5 Email', 'Notification on upto 5 Phone Number', 'Custom Question', "Enquiry Dashboard"]}
 
             />
           </div>

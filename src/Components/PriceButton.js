@@ -89,8 +89,6 @@ export default function PriceButton({
             }
             }
             renderWhenEmpty={() => (<Loading/> )}
-
-          
         />
         </div>
         </div>
