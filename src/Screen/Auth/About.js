@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
 import { COLORS } from '../../Theme/Theme'
 export default function About() {
@@ -21,7 +20,6 @@ export default function About() {
       }}>
         Comming Soon
       </div>
-      <Footer/>
       </div>
   )
 }

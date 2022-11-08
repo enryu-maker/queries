@@ -6,7 +6,6 @@ import { COLORS, FONTS } from '../../Theme/Theme'
 import Loading from '../../Components/Loading'
 import FlatList from 'flatlist-react';
 import FaqButton from '../../Components/FaqButton'
-import Footer from '../../Components/Footer'
 export default function Pricing() {
   const [active,setActive] = React.useState(false)
   const data = [
@@ -168,7 +167,6 @@ export default function Pricing() {
             renderWhenEmpty={() => (<Loading/> )}
         />
       </div>
-      <Footer/>
     </div>
   )
 }

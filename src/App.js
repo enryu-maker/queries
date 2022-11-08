@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './Components/Footer';
 import Authnav from './Screen/Auth/Authnav';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       flexDirection: 'column',
     }}>
       <Authnav/>
+      <Footer/>
     </div>
 
   );
